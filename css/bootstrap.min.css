@@ -14,14 +14,14 @@
     --bs-white: #fff;
     --bs-gray: #6c757d;
     --bs-gray-dark: #343a40;
-    --bs-primary: #00B98E;
-    --bs-secondary: #FF6922;
+    --bs-primary: #3c88b4;
+    --bs-secondary: #28ca23;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
     --bs-warning: #ffc107;
     --bs-danger: #dc3545;
     --bs-light: #EFFDF5;
-    --bs-dark: #0E2E50;
+    --bs-dark: #236cbb;
     --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))
@@ -592,7 +592,7 @@ progress {
     margin-top: -1rem;
     margin-bottom: 1rem;
     font-size: .875em;
-    color: #6c757d
+    color: rgb(252, 251, 251)
 }
 
 .blockquote-footer::before {
@@ -3123,14 +3123,14 @@ fieldset:disabled .btn {
 
 .btn-secondary {
     color: #000;
-    background-color: #FF6922;
-    border-color: #FF6922
+    background-color: #26ad21;
+    border-color: #26ad21
 }
 
 .btn-secondary:hover {
     color: #000;
-    background-color: #ff8043;
-    border-color: #ff7838
+    background-color: #10530d;
+    border-color: #10530d
 }
 
 .btn-check:focus+.btn-secondary,
@@ -8367,11 +8367,9 @@ fieldset:disabled .btn {
 .bg-light {
     background-color: #EFFDF5 !important
 }
-
 .bg-dark {
-    background-color: #0E2E50 !important
+    background-color: #236cbb !important /*** cambiar color del footer ***/
 }
-
 .bg-body {
     background-color: #EFFDF5 !important
 }
