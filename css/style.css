@@ -3,7 +3,7 @@
     --primary: #3c88b4;
     --secondary: #28ca23;
     --light: #EFFDF5;
-    --dark: #0E2E50;
+    --dark: #000000;
 }
 
 .back-to-top {
@@ -228,4 +228,17 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+/*** FWathshap ***/
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    left: 15px;
+    border-radius:60px;
+    text-align:center;
+    font-size:0px;
+    z-index:100;
 }
