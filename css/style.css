@@ -4,6 +4,7 @@
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
+    --black: #000000;
 }
 
 .back-to-top {
@@ -135,7 +136,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: var(--black);
     font-weight: 500;
 }
 
@@ -194,7 +195,7 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--dark);
+    background: var(--black);
 }
 
 @media (max-width: 768px) {
@@ -262,7 +263,7 @@
 
 /*** Property List ***/
 .nav-pills .nav-item .btn {
-    color: var(--dark);
+    color: var(--black);
 }
 
 .nav-pills .nav-item .btn:hover,
@@ -366,7 +367,7 @@
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--dark);
+    background: var(--black);
 }
 
 
@@ -379,7 +380,7 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(8, 0, 0, 0.5);
     border-radius: 35px;
     transition: .3s;
 }
